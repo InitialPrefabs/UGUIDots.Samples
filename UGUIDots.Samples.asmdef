@@ -1,0 +1,17 @@
+{
+    "name": "UGUIDots.Samples",
+    "references": [
+        "GUID:d33a885a34af140b7ac6735751616c27",
+        "GUID:15b5cedb175ab42a5ab92bf9bb11f169",
+        "GUID:734d92eba21c94caba915361bd5ac177"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
