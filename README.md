@@ -12,13 +12,14 @@ Please grab the following from the package manager
 * Jobs - 0.2.7-preview.11
 * Mathematics - 1.1.0
 * Unity UI - 1.0.0
+* TextMeshPro - 3.0.0-preview.1
 
 ## Quickstart
 
 * Add the dependencies listed above via the package manager
 * Add UGUIDots as a submodule or download the zip and store it into your project.
 * Add the UGUIDOTS.Sample repository as a submodule or download the zip and extract it to your project 
-* Open up the `RectTransformConversionTest.unity` scene which shows the basic structure of how to set up a UI
+* Open up the `Scenes/RectTransformConversionTest.unity` scene which shows the basic structure of how to set up a UI
 
 
 ## Build Information
@@ -32,3 +33,14 @@ Currently the only ones supported and verified to work are:
 * Windows-Standalone
 * macOS-Standalone
 * Android Oreo and higher
+
+## Demo
+
+### Anchoring & Scaling
+![anchoring](Images/anchoring-ui.gif)
+
+### Basic Button Support (Standalone/Mobile)
+![buttons](Images/buttons.gif)
+
+### Static Analysis and Batching to reduce Draw Calls
+![static-analysis-batcher](Images/batching.gif)
