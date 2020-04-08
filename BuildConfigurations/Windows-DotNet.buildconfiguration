@@ -1,0 +1,17 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-777aabecc56e63a4bbfc7775c1e7aeb4-93214019566545601-0"
+    ],
+    "Components": [{
+        "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+        "Target": 5,
+        "Configuration": 1,
+        "Pipeline": "GlobalObjectId_V1-1-b1eccdd0b529ba646810dbe5bf826452-93214019566545601-0",
+        "ExcludedAssemblies": []
+    }, {
+        "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
+        "ScriptingBackend": 2,
+        "Il2CppCompilerConfiguration": 0,
+        "UseIncrementalGC": true
+    }]
+}
