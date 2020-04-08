@@ -13,6 +13,7 @@ Please grab the following from the package manager
 * Mathematics - 1.1.0
 * Unity UI - 1.0.0
 * TextMeshPro - 3.0.0-preview.1
+* Universal RP - 8.0.1
 
 ## Quickstart
 
