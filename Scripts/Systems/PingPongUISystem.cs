@@ -1,5 +1,4 @@
 ﻿using UGUIDots.Render;
-using UGUIDots.Render.Systems;
 using UGUIDots.Transforms;
 using UGUIDots.Transforms.Systems;
 using Unity.Core;
@@ -9,6 +8,14 @@ using Unity.Transforms;
 using UnityEngine;
 
 namespace UGUIDots.Sample.Systems {
+
+    [UpdateInGroup(typeof(UpdateMaterialGroup))]
+    public class HeartFillSystem : SystemBase {
+
+        // TODO: Implement this
+        protected override void OnUpdate() {
+        }
+    }
 
     // TODO: Ping ponging with the resolution change is a bit odd.
     // TODO: Make a note for this.
@@ -22,7 +29,6 @@ namespace UGUIDots.Sample.Systems {
         }
 
         protected override void OnUpdate() {
-            Debug.Log("ReactiveSystem ran");
             var ltws = GetComponentDataFromEntity<LocalToWorld>(true);
             var parents = GetComponentDataFromEntity<Parent>(true);
             Entities.ForEach((Entity e, ref PingPongPositions c0) => {
@@ -44,8 +50,7 @@ namespace UGUIDots.Sample.Systems {
         }
     }
 
-    [UpdateInGroup(typeof(UITransformUpdateGroup))]
-    [UpdateAfter(typeof(ResolutionDeltaRebuildSystem))]
+    [UpdateInGroup(typeof(UpdateMaterialGroup))]
     public class PingPongUISystem : SystemBase {
 
         private EntityCommandBufferSystem cmdBufferSystem;
