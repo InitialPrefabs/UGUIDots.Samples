@@ -9,14 +9,6 @@ using UnityEngine;
 
 namespace UGUIDots.Sample.Systems {
 
-    [UpdateInGroup(typeof(UpdateMaterialGroup))]
-    public class HeartFillSystem : SystemBase {
-
-        // TODO: Implement this
-        protected override void OnUpdate() {
-        }
-    }
-
     // TODO: Ping ponging with the resolution change is a bit odd.
     // TODO: Make a note for this.
     [UpdateAfter(typeof(AnchorSystem))]
