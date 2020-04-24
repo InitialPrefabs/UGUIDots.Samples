@@ -1,0 +1,3 @@
+[submodule "Assets/UGUIDots"]
+	path = Assets/UGUIDots
+	url = git@github.com:InitialPrefabs/UGUIDots.git
