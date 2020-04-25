@@ -25,8 +25,9 @@ Please grab the following from the package manager
 
 ## Build Information
 The repository uses Unity's new configurable build pipelines, head over to the `BuildConfigurations` directory if you 
-would like to build for a specific platform. The ***typical build pipeline will not work.***
+would like to build for a specific platform. The ***typical build pipeline will not work.*** 
 
+> The Build Pipeline will be updated to the latest version as soon as I understand the process of how it works with DOTS.
 
 Currently the only ones supported and verified to work are:
 
@@ -45,3 +46,7 @@ Currently the only ones supported and verified to work are:
 
 ### Static Analysis and Batching to reduce Draw Calls
 ![static-analysis-batcher](Images/batching.gif)
+
+
+### Fill Amount & Translation Shaders
+![fill-amount-translations](Images/shaders.gif)
