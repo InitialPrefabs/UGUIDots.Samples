@@ -4,21 +4,18 @@ A sample repository of demoing [UGUIDOTS](https://github.com/InitialPrefabs/UGUI
 
 ## Dependencies
 * Unity 2020.1bx
-
-Please grab the following from the package manager
-
-* Entities - 0.8.0-preview.8
-* Collections - 0.7.0-preview.2
-* Jobs - 0.2.7-preview.11
-* Mathematics - 1.1.0
-* Unity UI - 1.0.0
-* TextMeshPro - 3.0.0-preview.1
-* Universal RP - 8.0.1
+* Burst 1.3.0-preview.10
+* Entities 0.9.1-preview.15
+* Jobs 0.2.8-preview.3
+* Collections 0.7.1-preview.3
+* UGUI 1.0.0
+* Universal RP 0.9.0-preview.14
+* TextMeshPro 0.3.0-preview.11
 
 ## Quickstart
 
+* Clone the repository
 * Add the dependencies listed above via the package manager
-* Add UGUIDots as a submodule or download the zip and store it into your project.
 * Add the UGUIDOTS.Sample repository as a submodule or download the zip and extract it to your project 
 * Open up the `Scenes/RectTransformConversionTest.unity` scene which shows the basic structure of how to set up a UI
 
