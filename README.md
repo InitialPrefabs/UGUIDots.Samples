@@ -14,15 +14,12 @@ A sample repository of demoing [UGUIDOTS](https://github.com/InitialPrefabs/UGUI
 
 ## Quickstart
 
-* Clone the repository
-* Add the dependencies listed above via the package manager
-* Add the UGUIDOTS.Sample repository as a submodule or download the zip and extract it to your project 
+* Clone the repository with submodules: `git clone https://github.com/InitialPrefabs/UGUIDots.Samples.git --recursive`
 * Open up the `Scenes/RectTransformConversionTest.unity` scene which shows the basic structure of how to set up a UI
-
 
 ## Build Information
 The repository uses Unity's new configurable build pipelines, head over to the `BuildConfigurations` directory if you 
-would like to build for a specific platform. The ***typical build pipeline will not work.*** 
+would like to build for a specific platform. The ***typical build pipeline will not work with subscenes.*** 
 
 > The Build Pipeline will be updated to the latest version as soon as I understand the process of how it works with DOTS.
 
