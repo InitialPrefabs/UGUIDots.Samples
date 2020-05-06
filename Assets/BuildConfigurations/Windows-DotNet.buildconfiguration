@@ -16,7 +16,7 @@
         },
         {
             "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
-            "ScriptingBackend": 0,
+            "ScriptingBackend": 2,
             "Il2CppCompilerConfiguration": 1,
             "UseIncrementalGC": true
         }
