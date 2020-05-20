@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UGUIDots.Samples/Scenes/RectTransformConversionTest.unity
+    path: Assets/Scenes/RenderSample.unity
     guid: 28e8a51484edc4313abc59d6b5c04e19
   m_configObjects: {}
