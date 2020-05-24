@@ -1,5 +1,4 @@
 # UGUIDOTS.Sample
-
 A sample repository of demoing [UGUIDOTS](https://github.com/InitialPrefabs/UGUIDots/tree/master). 
 
 ## Dependencies
@@ -46,3 +45,6 @@ Currently the only ones supported and verified to work are:
 
 ### Fill Amount & Translation Shaders
 ![fill-amount-translations](Images/shaders.gif)
+
+### Enabling/Disabling
+![closing](Images/closing.gif)
