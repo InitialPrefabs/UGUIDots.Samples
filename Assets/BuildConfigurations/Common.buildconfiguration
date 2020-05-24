@@ -1,17 +1,21 @@
 {
     "Dependencies": [],
-    "Components": [{
-        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
-        "BuildCurrentScene": true,
-        "SceneInfos": [{
-            "$type": "Unity.Build.Common.SceneList+SceneInfo, Unity.Build.Common",
-            "Scene": "GlobalObjectId_V1-1-28e8a51484edc4313abc59d6b5c04e19-102900000-0",
-            "AutoLoad": true
-        }],
-        "Scenes": []
-    }, {
-        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
-        "ProductName": "UGUIDOTS",
-        "CompanyName": "initialPrefabs"
-    }]
+    "Components": [
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+            "$version": 1,
+            "BuildCurrentScene": true,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-28e8a51484edc4313abc59d6b5c04e19-102900000-0",
+                    "AutoLoad": true
+                }
+            ]
+        },
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+            "ProductName": "UGUIDOTS",
+            "CompanyName": "initialPrefabs"
+        }
+    ]
 }
