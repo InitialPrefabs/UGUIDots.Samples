@@ -37,6 +37,17 @@
             "ScriptingBackend": 1,
             "Il2CppCompilerConfiguration": 1,
             "UseIncrementalGC": false
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+            "$version": 1,
+            "BuildCurrentScene": true,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-28e8a51484edc4313abc59d6b5c04e19-102900000-0",
+                    "AutoLoad": true
+                }
+            ]
         }
     ]
 }
