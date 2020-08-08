@@ -2028,7 +2028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcff906e6b00b954795a34475331fca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RenderFeature: {fileID: -1372306941258236212, guid: 95c9b70d328f84047a847a2d7d71a924,
+  RenderFeature: {fileID: 5773635822035489810, guid: e338f2be5c0c93840adc956486c9f34c,
     type: 2}
 --- !u!4 &1820217025
 Transform:
