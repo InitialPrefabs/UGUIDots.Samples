@@ -35,7 +35,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.entities": {
-      "version": "0.14.0-preview.18",
+      "version": "0.14.0-preview.19",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -107,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.platforms": {
-      "version": "0.8.0-preview.2",
+      "version": "0.8.0-preview.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -129,21 +129,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.platforms.desktop": {
-      "version": "0.8.0-preview.2",
+      "version": "0.8.0-preview.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.platforms": "0.8.0-preview.2"
+        "com.unity.platforms": "0.8.0-preview.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.platforms.macos": {
-      "version": "0.8.0-preview.2",
+      "version": "0.8.0-preview.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.platforms": "0.8.0-preview.2",
-        "com.unity.platforms.desktop": "0.8.0-preview.2"
+        "com.unity.platforms": "0.8.0-preview.7",
+        "com.unity.platforms.desktop": "0.8.0-preview.7"
       },
       "url": "https://packages.unity.com"
     },
@@ -188,14 +188,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "9.0.0-preview.35",
+      "version": "9.0.0-preview.55",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
         "com.unity.burst": "1.2.3",
-        "com.unity.render-pipelines.core": "9.0.0-preview.38",
-        "com.unity.shadergraph": "9.0.0-preview.34"
+        "com.unity.render-pipelines.core": "9.0.0-preview.60",
+        "com.unity.shadergraph": "9.0.0-preview.55"
       },
       "url": "https://packages.unity.com"
     },
@@ -227,11 +227,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "9.0.0-preview.34",
+      "version": "9.0.0-preview.55",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "9.0.0-preview.38",
+        "com.unity.render-pipelines.core": "9.0.0-preview.60",
         "com.unity.searcher": "4.2.0"
       },
       "url": "https://packages.unity.com"
