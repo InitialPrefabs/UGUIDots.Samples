@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Unity.Entities;
 
-namespace UGUIDots.Controls.Authoring {
+namespace UGUIDOTS.Controls.Authoring {
 
     public struct SampleID : IComponentData {
         public int Value;

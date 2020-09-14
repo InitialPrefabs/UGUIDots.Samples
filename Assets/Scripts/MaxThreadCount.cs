@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Unity.Jobs.LowLevel.Unsafe;
 
-namespace UGUIDots {
+namespace UGUIDOTS {
 
     public class MaxThreadCount : MonoBehaviour {
 

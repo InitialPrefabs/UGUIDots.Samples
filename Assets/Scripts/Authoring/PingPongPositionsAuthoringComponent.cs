@@ -1,7 +1,7 @@
 using UnityEngine;
 using Unity.Entities;
 
-namespace UGUIDots.Sample.Authoring {
+namespace UGUIDOTS.Sample.Authoring {
     public class PingPongPositionsAuthoringComponent : MonoBehaviour, IConvertGameObjectToEntity {
 
         public float Width = 150f;

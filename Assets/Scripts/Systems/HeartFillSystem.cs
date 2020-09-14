@@ -1,10 +1,10 @@
-using UGUIDots.Render;
-using UGUIDots.Transforms;
+using UGUIDOTS.Render;
+using UGUIDOTS.Transforms;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace UGUIDots.Sample.Systems {
+namespace UGUIDOTS.Sample.Systems {
     [UpdateInGroup(typeof(UpdateMaterialGroup))]
     public class HeartFillSystem : SystemBase {
 

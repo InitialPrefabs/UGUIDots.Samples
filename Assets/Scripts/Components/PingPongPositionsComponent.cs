@@ -1,6 +1,6 @@
 ﻿using Unity.Entities;
 
-namespace UGUIDots.Sample {
+namespace UGUIDOTS.Sample {
 
     public struct PingPongPositions : IComponentData {
         public float OriginalWidth;
