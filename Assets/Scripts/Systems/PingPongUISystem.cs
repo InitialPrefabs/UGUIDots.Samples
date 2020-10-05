@@ -28,15 +28,15 @@ namespace UGUIDOTS.Sample.Systems {
                 x = math.lerp(x, c0.Target, Time.DeltaTime);
 
                 var matrix = float4x4.TRS(new float3(x, 0, 0), quaternion.identity, new float3(1));
-                var localSpace = new LocalToParent { Value = matrix };
+                var LocalToParent = new LocalToParent { Value = matrix };
 
                 var root     = HierarchyUtils.GetRoot(e, parents);
                 var batch    = EntityManager.GetComponentData<MaterialPropertyBatch>(root);
                 var property = batch.Value[c1.Value];
-                property.SetVector(ShaderIDConstants.Translation, new float4(localSpace.Position, 0));
+                property.SetVector(ShaderIDConstants.Translation, new float4(LocalToParent.Position, 0));
 
-                c3 = localSpace;
-                c2 = new Translation { Value = localSpace.Position };
+                c3 = LocalToParent;
+                c2 = new Translation { Value = LocalToParent.Position };
             }).WithoutBurst().Run();
         }
     }
