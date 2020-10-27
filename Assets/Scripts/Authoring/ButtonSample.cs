@@ -12,14 +12,14 @@ namespace UGUIDOTS.Controls.Authoring {
         public int Value;
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem) {
-            var msgEntity = dstManager.CreateEntity();
-            dstManager.AddComponentData(msgEntity, new SampleID { Value = Value });
+//             var msgEntity = dstManager.CreateEntity();
+//             dstManager.AddComponentData(msgEntity, new SampleID { Value = Value });
 
-            dstManager.AddComponentData(entity, new ButtonMessageFramePayload { Value = msgEntity });
+//             dstManager.AddComponentData(entity, new ButtonMessageFramePayload { Value = msgEntity });
 
-#if UNITY_EDITOR
-            dstManager.SetName(msgEntity, $"{this.name} Button Payload Template");
-#endif
+// #if UNITY_EDITOR
+//             dstManager.SetName(msgEntity, $"{this.name} Button Payload Template");
+// #endif
         }
     }
 }

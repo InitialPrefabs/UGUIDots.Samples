@@ -677,7 +677,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: UGUIDOTS_DEBUG
+    1: UGUIDOTS_DEBUG;USE_LEGACY_INPUT
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
