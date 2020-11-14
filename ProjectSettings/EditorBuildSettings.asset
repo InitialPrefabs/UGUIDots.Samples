@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RenderSample.unity
-    guid: 28e8a51484edc4313abc59d6b5c04e19
+    path: Assets/Scenes/GeneralOverview.unity
+    guid: fc255b67cbd4ad74ebac9145847eafa7
   - enabled: 1
     path: Assets/Scenes/CloseButtonSample.unity
     guid: d94474cfdf2539c4995d1b92355785fa
