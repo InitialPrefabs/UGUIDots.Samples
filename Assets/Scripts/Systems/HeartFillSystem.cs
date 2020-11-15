@@ -1,29 +1,22 @@
-// using UGUIDOTS.Render;
-// using UGUIDOTS.Transforms;
-// using Unity.Entities;
-// using Unity.Mathematics;
-// using Unity.Transforms;
+using UGUIDOTS.Render;
+using UGUIDOTS.Transforms;
+using Unity.Entities;
+using Unity.Mathematics;
+using Unity.Transforms;
 
-// namespace UGUIDOTS.Sample.Systems {
-//     [UpdateInGroup(typeof(UpdateMaterialGroup))]
-//     public class HeartFillSystem : SystemBase {
+namespace UGUIDOTS.Sample.Systems {
 
-//         // TODO: Implement this
-//         protected override void OnUpdate() {
-//             var parents = GetComponentDataFromEntity<Unity.Transforms.Parent>(true);
+    public class HeartFillSystem : SystemBase {
 
-//             Entities.ForEach((Entity entity, ref FillAmount c0, in MaterialPropertyIndex c1, in SpriteData c2) => {
-//                 var current = c0.Amount;
-//                 current     = ((float)math.cos(Time.ElapsedTime) + 1) / 2;
-//                 c0.Amount   = current;
+        protected override void OnUpdate() {
+            var parents = GetComponentDataFromEntity<Unity.Transforms.Parent>(true);
 
-//                 var canvasRoot     = HierarchyUtils.GetRoot(entity, parents);
-//                 var properties     = EntityManager.GetComponentData<MaterialPropertyBatch>(canvasRoot);
-//                 var associatedProp = properties.Value[c1.Value];
+            float elapsedTime = (float)Time.ElapsedTime;
 
-//                 associatedProp.SetInt(ShaderIDConstants.FillType, c0.FillTypeAsInt());
-//                 associatedProp.SetFloat(ShaderIDConstants.Fill, current);
-//             }).WithoutBurst().Run();
-//         }
-//     }
-// }
+            Entities.WithAll<SpriteData>().ForEach((ref AxisFillAmount c0) => {
+                var current = ((float)math.cos(elapsedTime) + 1) / 2;
+                c0.FillAmount = current;
+            }).Run();
+        }
+    }
+}
