@@ -78,6 +78,16 @@ MonoBehaviour:
         LocalPosition: {x: 0, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
+    - WorldPosition: {x: 580, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -380, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - WorldPosition: {x: 700, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -260, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
   - WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
     LocalPosition: {x: 960, y: 540, z: 0}
