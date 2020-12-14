@@ -123,6 +123,11 @@ MonoBehaviour:
       LocalPosition: {x: -190.20007, y: 0, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
+    - WorldPosition: {x: 1802, y: 1017, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: 842, y: 477, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
   - WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
     LocalPosition: {x: 960, y: 540, z: 0}
