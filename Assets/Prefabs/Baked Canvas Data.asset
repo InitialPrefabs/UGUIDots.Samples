@@ -13,253 +13,225 @@ MonoBehaviour:
   m_Name: Baked Canvas Data
   m_EditorClassIdentifier: 
   Transforms:
-  - WorldPosition: {x: 960, y: 540, z: 0}
+  - Name: Canvas Layer 1
+    WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
     LocalPosition: {x: 960, y: 540, z: 0}
     LocalScale: {x: 1, y: 1, z: 1}
     Children:
-    - WorldPosition: {x: 360, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -600, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 360, y: 540, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 960, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: 0, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-  - WorldPosition: {x: 960, y: 540, z: 0}
-    WorldScale: {x: 1, y: 1, z: 1}
-    LocalPosition: {x: 960, y: 540, z: 0}
-    LocalScale: {x: 1, y: 1, z: 1}
-    Children:
-    - WorldPosition: {x: 100, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -860, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 100, y: 980, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 220, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -740, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 220, y: 980, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 340, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -620, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 340, y: 980, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 460, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -500, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 460, y: 980, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 580, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -380, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 700, y: 980, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -260, y: 440, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-  - WorldPosition: {x: 960, y: 540, z: 0}
-    WorldScale: {x: 1, y: 1, z: 1}
-    LocalPosition: {x: 960, y: 540, z: 0}
-    LocalScale: {x: 1, y: 1, z: 1}
-    Children:
-    - WorldPosition: {x: 947, y: 829, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -13, y: 289, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 436.60156, y: 300, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -523.39844, y: -240, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 304.82, y: 227, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -655.18, y: -313, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 566, y: 228, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -394, y: -312, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 1074, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: 114, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 769.7999, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -190.20007, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-    - WorldPosition: {x: 1802, y: 1017, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: 842, y: 477, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
-  - WorldPosition: {x: 960, y: 540, z: 0}
-    WorldScale: {x: 1, y: 1, z: 1}
-    LocalPosition: {x: 960, y: 540, z: 0}
-    LocalScale: {x: 1, y: 1, z: 1}
-    Children:
-    - WorldPosition: {x: 1420, y: 690, z: 0}
+    - Name: Red
+      WorldPosition: {x: 1420, y: 690, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: 460, y: 150, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
-    - WorldPosition: {x: 1720, y: 690, z: 0}
+    - Name: Green
+      WorldPosition: {x: 1720, y: 690, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: 760, y: 150, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
-    - WorldPosition: {x: 960, y: 540, z: 0}
+    - Name: Subpanel
+      WorldPosition: {x: 960, y: 540, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: 0, y: 0, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children:
-      - WorldPosition: {x: 1420, y: 390, z: 0}
+      - Name: Blue
+        WorldPosition: {x: 1420, y: 390, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 460, y: -150, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-      - WorldPosition: {x: 1720, y: 390, z: 0}
+      - Name: Yellow
+        WorldPosition: {x: 1720, y: 390, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 760, y: -150, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-      - WorldPosition: {x: 1570, y: 840, z: 0}
+      - Name: Top
+        WorldPosition: {x: 1570, y: 840, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 610, y: 300, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-      - WorldPosition: {x: 1570, y: 540, z: 0}
+      - Name: Center
+        WorldPosition: {x: 1570, y: 540, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 610, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-      - WorldPosition: {x: 1570, y: 240, z: 0}
+      - Name: Bottom
+        WorldPosition: {x: 1570, y: 240, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 610, y: -300, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-    - WorldPosition: {x: 1110, y: 340, z: 0}
+    - Name: Disabled
+      WorldPosition: {x: 1110, y: 340, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: 150, y: -200, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children:
-      - WorldPosition: {x: 1110, y: 340, z: 0}
+      - Name: Text (TMP)
+        WorldPosition: {x: 1110, y: 340, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 0, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-    - WorldPosition: {x: 810, y: 340, z: 0}
+    - Name: Enabled
+      WorldPosition: {x: 810, y: 340, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: -150, y: -200, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children:
-      - WorldPosition: {x: 810, y: 340, z: 0}
+      - Name: Text (TMP)
+        WorldPosition: {x: 810, y: 340, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 0, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-  - WorldPosition: {x: 960, y: 540, z: 0}
+  - Name: Canvas Layer 0
+    WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
     LocalPosition: {x: 960, y: 540, z: 0}
     LocalScale: {x: 1, y: 1, z: 1}
     Children:
-    - WorldPosition: {x: 960, y: 540, z: 0}
+    - Name: Parent Img
+      WorldPosition: {x: 360, y: 540, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -600, y: 0, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children:
+      - Name: Child Img
+        WorldPosition: {x: 360, y: 540, z: 0}
+        WorldScale: {x: 1, y: 1, z: 1}
+        LocalPosition: {x: 0, y: 0, z: 0}
+        LocalScale: {x: 1, y: 1, z: 1}
+        Children: []
+    - Name: Background
+      WorldPosition: {x: 960, y: 540, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
       LocalPosition: {x: 0, y: 0, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
-    - WorldPosition: {x: 210, y: 940, z: 0}
+  - Name: Text Canvas Layer
+    WorldPosition: {x: 960, y: 540, z: 0}
+    WorldScale: {x: 1, y: 1, z: 1}
+    LocalPosition: {x: 960, y: 540, z: 0}
+    LocalScale: {x: 1, y: 1, z: 1}
+    Children:
+    - Name: Title text
+      WorldPosition: {x: 947, y: 829, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -750, y: 400, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 210, y: 940, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 383, y: 493, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -577, y: -47, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - WorldPosition: {x: 383, y: 493, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-      - WorldPosition: {x: 383, y: 718, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 225, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children:
-        - WorldPosition: {x: 383, y: 718, z: 0}
-          WorldScale: {x: 1, y: 1, z: 1}
-          LocalPosition: {x: 0, y: 0, z: 0}
-          LocalScale: {x: 1, y: 1, z: 1}
-          Children: []
-      - WorldPosition: {x: 558, y: 718, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 175, y: 225, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-      - WorldPosition: {x: 383, y: 580.8, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 87.8, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-      - WorldPosition: {x: 383, y: 393, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: -100, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - WorldPosition: {x: 1420, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: 460, y: 0, z: 0}
+      LocalPosition: {x: -13, y: 289, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
-    - WorldPosition: {x: 600, y: 940, z: 0}
+    - Name: Caption text
+      WorldPosition: {x: 436.60156, y: 300, z: 0}
       WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -360, y: 400, z: 0}
+      LocalPosition: {x: -523.39844, y: -240, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: Subcaption Center Right
+      WorldPosition: {x: 304.82, y: 227, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -655.18, y: -313, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: Center
+      WorldPosition: {x: 566, y: 228, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -394, y: -312, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: 3 lines
+      WorldPosition: {x: 1074, y: 540, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: 114, y: 0, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: Blob of Text
+      WorldPosition: {x: 769.7999, y: 540, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -190.20007, y: 0, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: FPS Counter
+      WorldPosition: {x: 1820, y: 1017.5, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: 860, y: 477.5, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: FPS Counter - Space Grotesk
+      WorldPosition: {x: 1620.7, y: 1017.5, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: 660.7, y: 477.5, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+  - Name: Fill Canvas
+    WorldPosition: {x: 960, y: 540, z: 0}
+    WorldScale: {x: 1, y: 1, z: 1}
+    LocalPosition: {x: 960, y: 540, z: 0}
+    LocalScale: {x: 1, y: 1, z: 1}
+    Children:
+    - Name: Heart 1 BG
+      WorldPosition: {x: 100, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -860, y: 440, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children:
-      - WorldPosition: {x: 600, y: 940, z: 0}
+      - Name: Heart 1
+        WorldPosition: {x: 100, y: 980, z: 0}
         WorldScale: {x: 1, y: 1, z: 1}
         LocalPosition: {x: 0, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
+    - Name: Heart 2 BG
+      WorldPosition: {x: 220, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -740, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children:
+      - Name: Heart 2
+        WorldPosition: {x: 220, y: 980, z: 0}
+        WorldScale: {x: 1, y: 1, z: 1}
+        LocalPosition: {x: 0, y: 0, z: 0}
+        LocalScale: {x: 1, y: 1, z: 1}
+        Children: []
+    - Name: Heart 3 BG
+      WorldPosition: {x: 340, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -620, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children:
+      - Name: Heart 3
+        WorldPosition: {x: 340, y: 980, z: 0}
+        WorldScale: {x: 1, y: 1, z: 1}
+        LocalPosition: {x: 0, y: 0, z: 0}
+        LocalScale: {x: 1, y: 1, z: 1}
+        Children: []
+    - Name: Heart 4 BG
+      WorldPosition: {x: 460, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -500, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children:
+      - Name: Heart 4
+        WorldPosition: {x: 460, y: 980, z: 0}
+        WorldScale: {x: 1, y: 1, z: 1}
+        LocalPosition: {x: 0, y: 0, z: 0}
+        LocalScale: {x: 1, y: 1, z: 1}
+        Children: []
+    - Name: Radial Fill
+      WorldPosition: {x: 580, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -380, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    - Name: Spin
+      WorldPosition: {x: 700, y: 980, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -260, y: 440, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
