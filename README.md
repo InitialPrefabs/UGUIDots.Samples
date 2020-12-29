@@ -16,6 +16,10 @@ A sample repository of demoing [UGUIDOTS](https://github.com/InitialPrefabs/UGUI
 * Clone the repository with submodules: `git clone https://github.com/InitialPrefabs/UGUIDots.Samples.git --recursive`
 * Open up the `Scenes/RectTransformConversionTest.unity` scene which shows the basic structure of how to set up a UI
 
+## Beta Content!
+* The `master` branch hasn't been updated in a while. Most updates are done in the develop branch at the moment (which 
+rebuilds UGUIDOTS to be more responsive to Screen resolution).
+
 ## Build Information
 The repository uses Unity's new configurable build pipelines, head over to the `BuildConfigurations` directory if you 
 would like to build for a specific platform. The ***typical build pipeline will not work with subscenes.*** 
