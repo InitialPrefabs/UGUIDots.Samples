@@ -1,5 +1,5 @@
 {
-    "name": "UGUIDots.Samples",
+    "name": "UGUIDOTS.Samples",
     "rootNamespace": "",
     "references": [
         "GUID:5f36bc0aeb435984fb19ecbd27b87a1f",
@@ -13,9 +13,7 @@
         "GUID:44dcb2bf5b9be4b5aa76674c8edcd1d5"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "PS4"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
