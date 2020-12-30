@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using Unity.Jobs.LowLevel.Unsafe;
 
 namespace UGUIDOTS {
