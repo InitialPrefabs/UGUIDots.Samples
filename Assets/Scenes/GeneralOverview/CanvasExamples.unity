@@ -516,6 +516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BakedCanvasData: {fileID: 11400000, guid: 06a27d5b4fd9a4a3d84792e45bf249d8, type: 2}
   Index: 1
+  instanceID: 28228
 --- !u!114 &386341596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,7 +592,7 @@ RectTransform:
   - {fileID: 501514285}
   - {fileID: 1564127018}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1658,6 +1659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BakedCanvasData: {fileID: 11400000, guid: 06a27d5b4fd9a4a3d84792e45bf249d8, type: 2}
   Index: 2
+  instanceID: 27576
 --- !u!114 &917953123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2515,7 +2517,7 @@ RectTransform:
   - {fileID: 1845167212}
   - {fileID: 1954166971}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2536,6 +2538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BakedCanvasData: {fileID: 11400000, guid: 06a27d5b4fd9a4a3d84792e45bf249d8, type: 2}
   Index: 0
+  instanceID: 26226
 --- !u!1 &1394915335
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BakedCanvasData: {fileID: 11400000, guid: 06a27d5b4fd9a4a3d84792e45bf249d8, type: 2}
   Index: 3
+  instanceID: 27690
 --- !u!1 &1663492719
 GameObject:
   m_ObjectHideFlags: 0

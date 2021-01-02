@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48bd0cf2809524d12965921037badf9e, type: 3}
   m_Name: Baked Canvas Data
   m_EditorClassIdentifier: 
-  Transforms:
+  Hierarchy:
   - Name: Canvas Layer 1
     WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
@@ -91,30 +91,7 @@ MonoBehaviour:
         LocalPosition: {x: 0, y: 0, z: 0}
         LocalScale: {x: 1, y: 1, z: 1}
         Children: []
-  - Name: Canvas Layer 0
-    WorldPosition: {x: 960, y: 540, z: 0}
-    WorldScale: {x: 1, y: 1, z: 1}
-    LocalPosition: {x: 960, y: 540, z: 0}
-    LocalScale: {x: 1, y: 1, z: 1}
-    Children:
-    - Name: Parent Img
-      WorldPosition: {x: 360, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: -600, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children:
-      - Name: Child Img
-        WorldPosition: {x: 360, y: 540, z: 0}
-        WorldScale: {x: 1, y: 1, z: 1}
-        LocalPosition: {x: 0, y: 0, z: 0}
-        LocalScale: {x: 1, y: 1, z: 1}
-        Children: []
-    - Name: Background
-      WorldPosition: {x: 960, y: 540, z: 0}
-      WorldScale: {x: 1, y: 1, z: 1}
-      LocalPosition: {x: 0, y: 0, z: 0}
-      LocalScale: {x: 1, y: 1, z: 1}
-      Children: []
+    InstanceID: 26226
   - Name: Text Canvas Layer
     WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
@@ -169,6 +146,7 @@ MonoBehaviour:
       LocalPosition: {x: 660.7, y: 477.5, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
+    InstanceID: 27576
   - Name: Fill Canvas
     WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
@@ -235,3 +213,29 @@ MonoBehaviour:
       LocalPosition: {x: -260, y: 440, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
+    InstanceID: 27690
+  - Name: Canvas Layer 0
+    WorldPosition: {x: 960, y: 540, z: 0}
+    WorldScale: {x: 1, y: 1, z: 1}
+    LocalPosition: {x: 960, y: 540, z: 0}
+    LocalScale: {x: 1, y: 1, z: 1}
+    Children:
+    - Name: Parent Img
+      WorldPosition: {x: 360, y: 540, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: -600, y: 0, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children:
+      - Name: Child Img
+        WorldPosition: {x: 360, y: 540, z: 0}
+        WorldScale: {x: 1, y: 1, z: 1}
+        LocalPosition: {x: 0, y: 0, z: 0}
+        LocalScale: {x: 1, y: 1, z: 1}
+        Children: []
+    - Name: Background
+      WorldPosition: {x: 960, y: 540, z: 0}
+      WorldScale: {x: 1, y: 1, z: 1}
+      LocalPosition: {x: 0, y: 0, z: 0}
+      LocalScale: {x: 1, y: 1, z: 1}
+      Children: []
+    InstanceID: 28228
