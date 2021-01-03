@@ -3169,7 +3169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BakedCanvasData: {fileID: 11400000, guid: 06a27d5b4fd9a4a3d84792e45bf249d8, type: 2}
   Index: 3
-  instanceID: 27690
+  instanceID: 21684
 --- !u!1 &1663492719
 GameObject:
   m_ObjectHideFlags: 0

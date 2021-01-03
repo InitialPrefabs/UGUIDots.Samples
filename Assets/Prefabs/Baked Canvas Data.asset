@@ -213,7 +213,7 @@ MonoBehaviour:
       LocalPosition: {x: -260, y: 440, z: 0}
       LocalScale: {x: 1, y: 1, z: 1}
       Children: []
-    InstanceID: 27690
+    InstanceID: 21684
   - Name: Canvas Layer 0
     WorldPosition: {x: 960, y: 540, z: 0}
     WorldScale: {x: 1, y: 1, z: 1}
